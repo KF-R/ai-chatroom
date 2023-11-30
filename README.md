@@ -22,8 +22,4 @@ TCP AI Chat Room is a simple Python-based chatroom where users can interact with
 
 ### AI Client (`ai_client.py`):
 - Start the AI client by executing `ai_client.py`.
-- The AI client, named "ai_George", specializes in comedy and aims to entertain users.
 - The AI client has a set of guidelines it follows for interactions. For instance, it can respond with `<listens>` if it doesn't have any new information to contribute to the conversation.
-
-## Development:
-Developers can extend the functionality by adding more features to the server and clients. For instance, the AI client's behavior and attributes can be adjusted by changing the parameters in `ai_client.py`.
