@@ -26,7 +26,8 @@ def count_tokens(text):
     return len(encoding.encode(text))
 
 # Set up OpenAI API
-API_KEY = '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'
+API_KEY = ''
+if API_KEY == '': exit()
 openai.api_key = API_KEY
 
 MAX_TOKENS = 4096
